@@ -1,0 +1,39 @@
+<%include ../partial/header.ejs%>
+
+<style>
+    .card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+}
+</style>
+
+<div class="container">
+    <header class="jumbotron pb-5">
+        <div class="container">
+            <h1 class="text-uppercase"><i class="fas fa-campground"></i> Welcome to Yelp Camp</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia deleniti delectus possimus et. Sequi, doloribus.</p>
+            <p>
+                <a href="campgrounds/new" class="btn btn-primary btn-lg">New Camp Ground</a>
+            </p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <% campinfo.forEach(function(camp){ %>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card text-center mb-3">
+                        <img class="card-img-top" src="<%= camp.img %>" alt="camp pic">
+                        <div class="card-body m-0">
+                            <h5 class="card-title"><%= camp.name %></h5>
+                            <a href="/campgrounds/<%= camp._id %>" class="btn btn-primary">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            <% }) %>
+        </div>
+    </div>
+</div>
+
+<%include ../partial/footer.ejs %>

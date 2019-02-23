@@ -1,0 +1,63 @@
+<% include ../partial/header.ejs %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="lead">
+                <h1><%= campground.name %></h1>
+            </div>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">Cras justo odio</a>
+                <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+                <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="card col-md-12" id="showimage">
+                <img src="<%= campground.img %>" class="card-img-top" alt="Camp Image">
+                <div class="card-body">
+                    <div class="justify-content-between d-flex">
+                        <h5 class="card-title"><%= campground.name %></h5>
+                        <h5 class="card-title text-muted">$<%= campground.price %>/night</h5>
+                    </div>
+                    <p class="card-text"><%= campground.desc %></p>
+                    <p>
+                        <em>Submitted by <%= campground.author.username %></em>
+                    </p>
+                    <% if (currentUser && campground.author.id.equals(currentUser._id)){ %>
+                        <a href="<%= campground.id %>/edit" class="btn btn-warning btn">Edit</a>
+                        <form class="delete-form" action="<%= campground.id %>?_method=DELETE" method="post">
+                            <button class="btn-danger btn">Delete</button>
+                        </form>
+                    <% } %>
+                </div>
+            </div>
+            <div class="card mt-4">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <a href="/campgrounds/<%= campground._id %>/comments/new" class="btn btn-success float-right">Leave a Review</a>
+                    </li>
+                    <% campground.comments.forEach(function(comment){ %>
+                        <li class="list-group-item py-2">
+                            <div class="justify-content-between d-flex py-0">
+                                <h6 class="mb-0"><%= comment.author.username %></h6>
+                                <p class="mb-0">10 days ago</p>
+                            </div>
+                            <p class="mb-1"><%= comment.text %></p>
+                            <% if (currentUser && comment.author.id.equals(currentUser._id)){ %>
+                                <a href="/campgrounds/<%= campground._id %>/comments/<%= comment._id %>/edit" class="btn btn-warning btn-sm">Edit</a>
+                                <form class="delete-form" action="/campgrounds/<%= campground._id %>/comments/<%= comment._id %>?_method=DELETE" method="post">
+                                    <button class="btn-danger btn btn-sm">Delete</button>
+                                </form>
+                            <% } %>
+                        </li>
+                    <% }) %>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+<% include ../partial/footer.ejs %>

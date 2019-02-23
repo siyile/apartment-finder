@@ -1,0 +1,952 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.2",
+    "workspace": "c:\\Users\\75044\\Project\\WebDev\\Yelpcamp",
+    "linecount": [
+        {
+            "version": "0.2.2",
+            "counttime": "2019-02-19 23:14:04",
+            "filesum": 7,
+            "codesum": 150,
+            "commentsum": 0,
+            "blanksum": 26,
+            "statistics": {
+                ".js": {
+                    "code": 51,
+                    "comment": 0,
+                    "blank": 12
+                },
+                ".ejs": {
+                    "code": 99,
+                    "comment": 0,
+                    "blank": 14
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 12,
+                    "code": 51,
+                    "comment": 0,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\index.ejs"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "views\\landing.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\newCamp.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "views\\partial\\footer.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "views\\partial\\header.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "views\\show.ejs"
+                }
+            ]
+        },
+        {
+            "version": "0.2.2",
+            "counttime": "2019-02-20 14:37:58",
+            "filesum": 10,
+            "codesum": 218,
+            "commentsum": 1,
+            "blanksum": 35,
+            "statistics": {
+                ".js": {
+                    "code": 119,
+                    "comment": 1,
+                    "blank": 21
+                },
+                ".ejs": {
+                    "code": 99,
+                    "comment": 0,
+                    "blank": 14
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 9,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "models\\campground.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "models\\comment.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 49,
+                    "comment": 1,
+                    "filename": "seed.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\index.ejs"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "views\\landing.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\newCamp.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "views\\partial\\footer.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "views\\partial\\header.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 5,
+                    "comment": 0,
+                    "filename": "views\\show.ejs"
+                }
+            ]
+        },
+        {
+            "version": "0.2.2",
+            "counttime": "2019-02-20 17:04:28",
+            "filesum": 11,
+            "codesum": 267,
+            "commentsum": 1,
+            "blanksum": 39,
+            "statistics": {
+                ".js": {
+                    "code": 143,
+                    "comment": 1,
+                    "blank": 23
+                },
+                ".ejs": {
+                    "code": 124,
+                    "comment": 0,
+                    "blank": 16
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 11,
+                    "code": 63,
+                    "comment": 0,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "models\\campground.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 7,
+                    "comment": 0,
+                    "filename": "models\\comment.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 54,
+                    "comment": 1,
+                    "filename": "seed.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\index.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\new.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 9,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\show.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "views\\comments\\new.ejs"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "views\\landing.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "views\\partial\\footer.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "views\\partial\\header.ejs"
+                }
+            ]
+        },
+        {
+            "version": "0.2.2",
+            "counttime": "2019-02-21 17:26:01",
+            "filesum": 15,
+            "codesum": 380,
+            "commentsum": 1,
+            "blanksum": 60,
+            "statistics": {
+                ".js": {
+                    "code": 195,
+                    "comment": 1,
+                    "blank": 37
+                },
+                ".ejs": {
+                    "code": 182,
+                    "comment": 0,
+                    "blank": 23
+                },
+                ".css": {
+                    "code": 3,
+                    "comment": 0,
+                    "blank": 0
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 22,
+                    "code": 109,
+                    "comment": 0,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 18,
+                    "comment": 0,
+                    "filename": "models\\campground.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "models\\comment.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "models\\user.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\main.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 54,
+                    "comment": 1,
+                    "filename": "seed.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\index.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\new.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\show.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "views\\comments\\new.ejs"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "views\\landing.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "views\\login.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "views\\partial\\footer.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\partial\\header.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "views\\register.ejs"
+                }
+            ]
+        },
+        {
+            "version": "0.2.2",
+            "counttime": "2019-02-22 13:11:52",
+            "filesum": 18,
+            "codesum": 404,
+            "commentsum": 2,
+            "blanksum": 68,
+            "statistics": {
+                ".js": {
+                    "code": 219,
+                    "comment": 2,
+                    "blank": 45
+                },
+                ".css": {
+                    "code": 3,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".ejs": {
+                    "code": 182,
+                    "comment": 0,
+                    "blank": 23
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 10,
+                    "code": 38,
+                    "comment": 1,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 19,
+                    "comment": 0,
+                    "filename": "models\\campground.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "models\\comment.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "models\\user.js"
+                },
+                {
+                    "blank": 0,
+                    "code": 3,
+                    "comment": 0,
+                    "filename": "public\\main.css"
+                },
+                {
+                    "blank": 7,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "routes\\campgrounds.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 28,
+                    "comment": 0,
+                    "filename": "routes\\comments.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "routes\\index.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 54,
+                    "comment": 1,
+                    "filename": "seed.js"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\index.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\new.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\show.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 21,
+                    "comment": 0,
+                    "filename": "views\\comments\\new.ejs"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "views\\landing.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "views\\login.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "views\\partial\\footer.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\partial\\header.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "views\\register.ejs"
+                }
+            ]
+        },
+        {
+            "version": "0.2.2",
+            "counttime": "2019-02-22 23:13:09",
+            "filesum": 20,
+            "codesum": 579,
+            "commentsum": 10,
+            "blanksum": 86,
+            "statistics": {
+                ".js": {
+                    "code": 338,
+                    "comment": 10,
+                    "blank": 56
+                },
+                ".css": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".ejs": {
+                    "code": 235,
+                    "comment": 0,
+                    "blank": 29
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 10,
+                    "code": 39,
+                    "comment": 1,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "models\\campground.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "models\\comment.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "models\\user.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "public\\main.css"
+                },
+                {
+                    "blank": 12,
+                    "code": 78,
+                    "comment": 0,
+                    "filename": "routes\\campgrounds.js"
+                },
+                {
+                    "blank": 10,
+                    "code": 61,
+                    "comment": 0,
+                    "filename": "routes\\comments.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 31,
+                    "comment": 0,
+                    "filename": "routes\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 83,
+                    "comment": 9,
+                    "filename": "seed.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\edit.ejs"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\index.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\new.ejs"
+                },
+                {
+                    "blank": 4,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\show.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "views\\comments\\edit.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "views\\comments\\new.ejs"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "views\\landing.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "views\\login.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "views\\partial\\footer.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\partial\\header.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "views\\register.ejs"
+                }
+            ]
+        },
+        {
+            "version": "0.2.2",
+            "counttime": "2019-02-23 13:52:48",
+            "filesum": 21,
+            "codesum": 612,
+            "commentsum": 11,
+            "blanksum": 88,
+            "statistics": {
+                ".js": {
+                    "code": 359,
+                    "comment": 11,
+                    "blank": 56
+                },
+                ".css": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 1
+                },
+                ".ejs": {
+                    "code": 247,
+                    "comment": 0,
+                    "blank": 31
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 10,
+                    "code": 42,
+                    "comment": 2,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "middleware\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "models\\campground.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "models\\comment.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "models\\user.js"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "public\\main.css"
+                },
+                {
+                    "blank": 10,
+                    "code": 65,
+                    "comment": 0,
+                    "filename": "routes\\campgrounds.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "routes\\comments.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "routes\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 83,
+                    "comment": 9,
+                    "filename": "seed.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\edit.ejs"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\index.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\new.ejs"
+                },
+                {
+                    "blank": 4,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\show.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "views\\comments\\edit.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "views\\comments\\new.ejs"
+                },
+                {
+                    "blank": 3,
+                    "code": 4,
+                    "comment": 0,
+                    "filename": "views\\landing.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "views\\login.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "views\\partial\\footer.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "views\\partial\\header.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "views\\register.ejs"
+                }
+            ]
+        },
+        {
+            "version": "0.2.2",
+            "counttime": "2019-02-23 20:15:11",
+            "filesum": 22,
+            "codesum": 762,
+            "commentsum": 14,
+            "blanksum": 94,
+            "statistics": {
+                ".js": {
+                    "code": 363,
+                    "comment": 9,
+                    "blank": 56
+                },
+                ".ejs": {
+                    "code": 320,
+                    "comment": 0,
+                    "blank": 31
+                },
+                ".css": {
+                    "code": 79,
+                    "comment": 5,
+                    "blank": 7
+                }
+            },
+            "filelist": [
+                {
+                    "blank": 10,
+                    "code": 43,
+                    "comment": 0,
+                    "filename": "app.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 39,
+                    "comment": 0,
+                    "filename": "middleware\\index.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 27,
+                    "comment": 0,
+                    "filename": "models\\campground.js"
+                },
+                {
+                    "blank": 2,
+                    "code": 12,
+                    "comment": 0,
+                    "filename": "models\\comment.js"
+                },
+                {
+                    "blank": 3,
+                    "code": 8,
+                    "comment": 0,
+                    "filename": "models\\user.js"
+                },
+                {
+                    "blank": 6,
+                    "code": 73,
+                    "comment": 5,
+                    "filename": "public\\stylesheets\\landing.css"
+                },
+                {
+                    "blank": 1,
+                    "code": 6,
+                    "comment": 0,
+                    "filename": "public\\stylesheets\\main.css"
+                },
+                {
+                    "blank": 10,
+                    "code": 66,
+                    "comment": 0,
+                    "filename": "routes\\campgrounds.js"
+                },
+                {
+                    "blank": 7,
+                    "code": 49,
+                    "comment": 0,
+                    "filename": "routes\\comments.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "routes\\index.js"
+                },
+                {
+                    "blank": 8,
+                    "code": 84,
+                    "comment": 9,
+                    "filename": "seed.js"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\edit.ejs"
+                },
+                {
+                    "blank": 4,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\index.ejs"
+                },
+                {
+                    "blank": 5,
+                    "code": 29,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\new.ejs"
+                },
+                {
+                    "blank": 4,
+                    "code": 59,
+                    "comment": 0,
+                    "filename": "views\\campgrounds\\show.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "views\\comments\\edit.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 17,
+                    "comment": 0,
+                    "filename": "views\\comments\\new.ejs"
+                },
+                {
+                    "blank": 3,
+                    "code": 35,
+                    "comment": 0,
+                    "filename": "views\\landing.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\login.ejs"
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "views\\partial\\footer.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 47,
+                    "comment": 0,
+                    "filename": "views\\partial\\header.ejs"
+                },
+                {
+                    "blank": 2,
+                    "code": 25,
+                    "comment": 0,
+                    "filename": "views\\register.ejs"
+                }
+            ]
+        }
+    ]
+}
