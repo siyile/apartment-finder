@@ -4,10 +4,11 @@
   "description": "hello",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/Marak/Faker.js"
+    "url": "https://github.com/Seayahh/Yelpcamp.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "app.js"
   },
   "author": "Siyi Le",
   "license": "ISC",
