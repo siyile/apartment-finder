@@ -4,7 +4,7 @@
   "description": "hello",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/Seayahh/Yelpcamp.git"
+    "url": "https://github.com/siyile/apartment-finder.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
