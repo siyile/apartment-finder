@@ -20,7 +20,7 @@ router.post("/register", function(req, res){
             res.redirect("/register");
         }
         passport.authenticate("local")(req, res, function(){
-            res.redirect("/campgrounds")
+            res.redirect("/apartments")
         })
     });
 })
@@ -30,14 +30,14 @@ router.get("/login", function(req, res){
 })
 
 router.post("/login", passport.authenticate("local", {
-    successRedirect : "/campgrounds",
+    successRedirect : "/apartments",
     failureRedirect: "/login"
 }))
 
 router.get("/logout", function(req, res){
     req.logOut();
     req.flash("success", "You successfully logout");
-    res.redirect("/campgrounds")
+    res.redirect("/apartments")
 })
 
 module.exports = router

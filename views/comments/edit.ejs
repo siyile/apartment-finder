@@ -4,14 +4,14 @@
     <h1 class="text-center">Edit Comment</h1>
     <div class="row justify-content-center">
         <div class="container col-5">
-            <form action="/campgrounds/<%= campground_id %>/comments/<%= comment._id %>?_method=PUT" method="POST">
+            <form action="/apartments/<%= campground_id %>/comments/<%= comment._id %>?_method=PUT" method="POST">
                 <div class="form-group">
                     <label for="comment">Comment</label>
                     <input id="comment" class="form-control" type="text" name="comment[text]" value="<%= comment.text %>">
                 </div>
                 <button type="submit" class="btn btn-success">Submit!</button>
             </form>
-            <a href="/campgrounds/<%= campground_id %>">Go Back</a>
+            <a href="/apartments/<%= campground_id %>">Go Back</a>
         </div>
     </div>
 </div>

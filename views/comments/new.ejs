@@ -1,17 +1,17 @@
 <% include ../partial/header.ejs %>
 
 <div class="container">
-    <h1 class="text-center">Create New Camp</h1>
+    <h1 class="text-center">Create New Comment</h1>
     <div class="row justify-content-center">
         <div class="container col-5">
-            <form action="/campgrounds/<%= campground._id %>/comments/new" method="POST">
+            <form action="/apartments/<%= campground._id %>/comments/new" method="POST">
                 <div class="form-group">
                     <label for="comment">Comment</label>
                     <input id="comment" class="form-control" type="text" name="comment[text]">
                 </div>
                 <button type="submit" class="btn btn-success">Submit!</button>
             </form>
-            <a href="/campgrounds/<%= campground._id %>">Go Back</a>
+            <a href="/apartments/<%= campground._id %>">Go Back</a>
         </div>
     </div>
 </div>

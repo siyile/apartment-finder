@@ -1,2 +1,2 @@
-# Yelpcamp
-This is course project from udemy The Web Developer Bootcamp.
+# Apartment Finder
+This is course project for Web Dev.

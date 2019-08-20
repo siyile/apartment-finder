@@ -1,6 +1,6 @@
 var mongoose = require("mongoose"),
 passport = require("passport"),
-campgrounds = require("./routes/campgrounds"),
+apartments = require("./routes/apartments"),
 comments = require("./routes/comments"),
 index = require("./routes/index"),
 methodOverride = require('method-override')
@@ -44,8 +44,8 @@ passport.use(User.createStrategy());
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
 
-app.use("/campgrounds", campgrounds);
-app.use("/campgrounds/:id/comments", comments);
+app.use("/apartments", apartments);
+app.use("/apartments/:id/comments", comments);
 app.use("/", index)
 
 app.listen(3000, function(){

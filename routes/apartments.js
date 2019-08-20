@@ -9,7 +9,7 @@ middleware = require("../middleware");
 router.get("/", function(req, res){
     Campground.find({}, function(err, campground){
         if (err) return console.error(err);
-        res.render("campgrounds/index", {campinfo: campground})
+        res.render("apartments/index", {campinfo: campground})
     })
 })
 
@@ -27,26 +27,26 @@ router.post("/", middleware.isLoggedIn, function(req, res){
         if (err) return console.error(err);
         newCamp.saveInfo();
         req.flash("success", "You successfully create a campground");
-        res.redirect("/campgrounds");
+        res.redirect("/apartments");
     })
 })
 
 router.get("/new", middleware.isLoggedIn, function(req, res){
-    res.render("campgrounds/new");
+    res.render("apartments/new");
 })
 
 router.get("/:id", function(req, res){
     var id = req.params.id;
     Campground.findById(id).populate("comments").exec(function(err, campground){
         if (err) return console.error(err);
-        res.render('campgrounds/show', {campground: campground});
+        res.render('apartments/show', {campground: campground});
     })
 })
 
 router.get("/:id/edit", middleware.checkCampgroundOwnership ,function(req, res){
     Campground.findById(req.params.id, function(err, campground){
         if (err) return console.error(err);
-        res.render("campgrounds/edit", {campground: campground})
+        res.render("apartments/edit", {campground: campground})
     })
 })
 
@@ -55,7 +55,7 @@ router.put("/:id", middleware.checkCampgroundOwnership, function(req, res){
     Campground.findByIdAndUpdate(req.params.id, newCampground, function(err, updatedCampground){
         if (err) return console.error(err);
         req.flash("success", "You successfully edited a campground");
-        res.redirect("/campgrounds/" + req.params.id)
+        res.redirect("/apartments/" + req.params.id)
     })
 })
 
@@ -68,7 +68,7 @@ router.delete("/:id", middleware.checkCampgroundOwnership, function(req, res){
             }
         }, (err) => {
             if (err) return console.error(err);
-            res.redirect("/campgrounds")
+            res.redirect("/apartments")
         })
     })
 })
